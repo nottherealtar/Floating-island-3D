@@ -36,9 +36,9 @@ export default function Contact() {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: 'Shahram',
+          to_name: 'Tar',
           from_email: form.email,
-          to_email: 'shahramshakibaa@gmail.com',
+          to_email: 'nottherealtar@tarsonlinecafe.rocks',
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
