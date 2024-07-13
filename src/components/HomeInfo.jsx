@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import shahram from '../assets/Sh.jpg';
+import shahram from '../assets/Sh.png';
 import { arrow } from '../assets/icons';
 
 const InfoBox = ({ title, text, link, btnText }) => (
@@ -27,13 +27,13 @@ const renderContent = {
     <>
       <img
         src={shahram}
-        alt="Shahram's Image"
+        alt="Tars Image"
         className="w-20 h-20 border rounded-full object-cover shadow-xl opacity-85 hover:opacity-100 transition-opacity duration-300"
       />
       <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-6 px-8 text-violet-200 mx-5 ">
-        Hi, I am <span className="font-semibold ">Shahram.</span>
+        Hi, I am <span className="font-semibold ">Tar</span>
         <span className="text-blue-300 text-lg block mt-4 mb-2">
-          A Frontend Developer
+          A True Gamer
         </span>
         <p className="border border-gray-400 border-opacity-60 px-4 rounded-md ">
           <span className="sm:text-base">
